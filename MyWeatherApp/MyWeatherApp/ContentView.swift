@@ -6,8 +6,14 @@
 //
 
 import SwiftUI
-import SwiftyJSON
 import Alamofire
+import SwiftyJSON
+
+//private func getImages(keyword:String) {
+//    let urlKeyword = keyword.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed)
+//    let url = "https://pixabay.com/api/?key=(APIキー)&q=\(urlKeyword ?? "")&lang=ja&safesearch=true"
+//    AF.request(url, method: .get, parametes: nil,)
+//}
 
 struct ContentView: View {
     var body: some View {
@@ -21,3 +27,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
